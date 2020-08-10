@@ -1,1 +1,17 @@
-Hello Jai
+#Create an account on Github.com
+#Download the Git for windows file from file https://git-scm.com/download/win
+#Start Installation. Once installation is complete, click on icon GitBash icon on the screen.
+
+
+$ cd test //create a directory and go into that directory and initialize git by next command
+$ git init
+$ git add demo.txt
+$ git commit -m "committing a text file" // This will not happen without setting up next line
+
+$ git config --global user.email "Email ID" //your own email registered with Github.com
+$ git config --global user.name "Username" //your own username registered with Github.com
+
+#test_demo //repository created on Github.com, Go to new repository and provide repository name and click on create repository.
+
+$git remote add origin https://github.com/sukhendra/test_demo.git
+$git push origin master // Now you can see the file loaded on github.com
